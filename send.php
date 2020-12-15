@@ -21,7 +21,7 @@ if(!isset($_POST['fio']) and !isset($_POST['email'])){
  $email = urldecode($email);
  $fio = trim($fio);
  $email = trim($email);
- if (mail("example@mail.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: example2@mail.ru \r\n")){
+ if (mail("mtrubchanin@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: maksimtrubcanin@gmail.com \r\n")){
  echo "Сообщение успешно отправлено";
  } else {
  echo "При отправке сообщения возникли ошибки";
